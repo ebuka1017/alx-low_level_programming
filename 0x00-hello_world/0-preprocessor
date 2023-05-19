@@ -1,0 +1,7 @@
+#!/bin/bash
+c_file="$CFILE"
+
+output_file="c"
+
+gcc -E "c_file" -0 "output_file"
+
