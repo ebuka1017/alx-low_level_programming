@@ -1,9 +1,2 @@
 #!/bin/bash
-c_file="$CFILE"
-
-file_name="${c_file%.*}"
-
-output_file="main.o"
-
-
-gcc -c "$c_file"   -o "output_file"
+gcc -c $CFILE
