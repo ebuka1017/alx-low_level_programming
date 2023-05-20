@@ -14,7 +14,7 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		printf("%c ", letter);
+		printf("%c", letter);
 	}
 
 	return (0);
