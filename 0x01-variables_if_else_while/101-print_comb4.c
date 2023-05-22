@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i, j, k;
+	int first = 1;
 
 	for (i = 0; i <= 7; i++)
 	{
@@ -16,15 +17,17 @@ int main(void)
 		{
 			for (k = i + 1; k <= 9; k++)
 			{
-				putchar('0' + i);
-				putchar('0' + j);
-				putchar('0' + k);
-
-				if (i < 7 || j < 8 || k < 9)
+				if (!first)
 				{
 					putchar(',');
 					putchar(' ');
 				}
+
+				putchar('0' + i);
+				putchar('0' + j);
+				putchar('0' + k);
+
+				first = 0;
 			}
 		}
 	}
