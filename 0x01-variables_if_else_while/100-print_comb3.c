@@ -25,6 +25,7 @@ int main(void)
 			putchar('0' + j);
 
 			first = 0;
+		}
 	}
 
 	putchar('\n');
