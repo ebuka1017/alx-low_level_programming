@@ -12,9 +12,15 @@
 int _putchar(char c);
 
 /**
- * print_alphabet - func to print alphabet
+ * print_alphabet - func to print alphabet in lowercase
  */
 void print_alphabet(void);
+
+/**
+ * print_alphabet_x10 - func to print lowercase alphabets 10x
+ */
+
+void print_alphabet_x10(void);
 
 #endif
 
