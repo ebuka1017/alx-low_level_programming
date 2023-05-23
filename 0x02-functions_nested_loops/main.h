@@ -12,7 +12,7 @@
 int _putchar(char c);
 
 /**
- * print_alphabet - printsfunc to print alphabet
+ * print_alphabet - func to print alphabet
  */
 void print_alphabet(void);
 
