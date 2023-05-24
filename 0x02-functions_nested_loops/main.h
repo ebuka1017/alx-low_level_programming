@@ -58,7 +58,7 @@ int _abs(int);
  *Return: value of last digit
  */
 
-int print_last_digit(int)
+int print_last_digit(int);
 
 #endif
 
