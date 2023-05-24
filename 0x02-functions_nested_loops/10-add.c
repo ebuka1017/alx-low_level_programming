@@ -3,6 +3,10 @@
 /**
  * add - adds two numbers
  *
+ * @a: first int
+ *
+ * @b: second int
+ *
  * Return: sum of two integers
  */
 
