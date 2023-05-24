@@ -60,5 +60,12 @@ int _abs(int);
 
 int print_last_digit(int);
 
+/**
+ * jack_bauer - prints timer
+ *
+ */
+
+int jack_bauer(void);
+
 #endif
 
