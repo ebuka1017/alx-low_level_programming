@@ -68,18 +68,23 @@ int print_last_digit(int n);
 int jack_bauer(void);
 
 /**
- * times_table - prints 9 times table
+ * times_table - prints the 9 times table
  */
 
 void times_table(void);
 
 /**
- * add - adds two integers
+ * add - sums up two integers a & b
  *
- * Return - sum of two integers
+ * Return: sum of two ints a,b
  */
 
 int add(int, int);
 
+/**
+ * print_to_98 - counts from n to 98
+ */
+
+void print_to_98(int n);
 #endif
 
