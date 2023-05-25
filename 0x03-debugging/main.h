@@ -92,5 +92,14 @@ void print_to_98(int n);
  */
 
 void print_times_table(int n);
+
+/**
+ * largest_number - prints largest number out of 3 given integers
+ *
+ * Return: largest number
+ */
+
+int largest_number(int, int, int);
+
 #endif
 
