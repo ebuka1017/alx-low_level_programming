@@ -101,5 +101,13 @@ void print_times_table(int n);
 
 int largest_number(int, int, int);
 
+/**
+ * print_remaining_days - takes a date and prints how many days are left in a yea, taking leap years into account
+ *
+ * Return: void
+ */
+
+void print_remaining_days(int, int, int);
+
 #endif
 
