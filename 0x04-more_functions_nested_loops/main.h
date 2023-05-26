@@ -147,5 +147,11 @@ void print_line(int);
 
 void print_diagonal(int);
 
+/**
+ * print_square - prints a square in the terminal
+ */
+void print_square(int size);
+
+
 #endif
 
