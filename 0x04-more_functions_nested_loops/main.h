@@ -109,5 +109,14 @@ int _isupper(int c);
 
 int _isdigit(int);
 
+/**
+ * mul - multiplies two integere
+ * 
+ * Return: product
+ */
+
+int mul(int, int);
+
+
 #endif
 
