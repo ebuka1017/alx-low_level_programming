@@ -96,10 +96,18 @@ void print_times_table(int n);
 /**
  * _isupper - checks for uppercase character
  *
- * Returns: 1 if successful, 0 otherwise
+ * Return: 1 if successful, 0 otherwise
  */
 
 int _isupper(int c);
+
+/**
+ * _isdigit - checks if character is a digit
+ *
+ * Return: 1 if successful, 0 otherwise
+ */
+
+int _isdigit(int);
 
 #endif
 
