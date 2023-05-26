@@ -129,5 +129,12 @@ void print_numbers(void);
 
 void print_most_numbers(void);
 
+/**
+ * more_numbers - prints 10 times the numbers 0-14, followed by a new line
+ */
+
+void more_numbers(void);
+
+
 #endif
 
