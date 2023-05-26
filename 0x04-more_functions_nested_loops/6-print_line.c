@@ -3,6 +3,8 @@
 /**
  * print_line - prints straight line in the terminal
  *
+ *@n: argument
+ *
  * Return: Always (0) success
  *
  */
