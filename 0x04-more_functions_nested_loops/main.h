@@ -152,6 +152,11 @@ void print_diagonal(int);
  */
 void print_square(int size);
 
+/**
+ * print_triangle - prints triangle in the terminal
+ */
+
+void print_triangle(int);
 
 #endif
 
