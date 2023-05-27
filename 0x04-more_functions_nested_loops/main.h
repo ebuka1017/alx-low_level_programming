@@ -156,7 +156,7 @@ void print_square(int size);
  * print_triangle - prints triangle in the terminal
  */
 
-void print_triangle(int);
+void print_triangle(int size);
 
 #endif
 
