@@ -110,7 +110,7 @@ void swap_int(int *a, int *b);
  * _strlen - returns string length
  */
 
-int _strlen(char *s)i;
+int _strlen(char *s);
 
 #endif
 
