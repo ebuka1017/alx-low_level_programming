@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * return_to_98 - takes a pointer to an int as parameter and updates the value to (98)
- * *n: pointer
- *
- * Return: always (0) success 
+ * return_to_98 - updates to 98
+ * @n: pointer integer
  */
 
 void return_to_98(int *n)
