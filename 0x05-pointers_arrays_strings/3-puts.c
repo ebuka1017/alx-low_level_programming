@@ -3,12 +3,18 @@
 /**
  * _puts - prints a string to stdout
  *
- * @str: str
+ * @str: string to be printed
  */
 
 
 void _puts(char *str)
 {
-	_putchar(str + '0');
+	int i;
+
+	while (str[i] != '\0')
+	{
+		_puchar(str[i]);
+		str++;
+	}
 }
 
