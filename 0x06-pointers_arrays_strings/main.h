@@ -142,5 +142,11 @@ void puts2(char *str);
 
 void puts_half(char *str);
 
+/**
+ * *_strcat - concatenates two strings
+ */
+
+char *_strcat(char *dest, char *src);
+
 #endif
 
