@@ -152,7 +152,7 @@ void print_array(int *a, int n);
  * _strcpy - copies a string 
  */
 
-char _strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src);
 
 #endif
 
