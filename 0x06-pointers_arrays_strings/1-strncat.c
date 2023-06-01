@@ -2,7 +2,6 @@
 
 /**
  * _strncat - concatenates two strings
- * 
  * @n: count
  * @dest: destination
  * @src: source
