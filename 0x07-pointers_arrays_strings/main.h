@@ -184,5 +184,37 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 
 char *_strchr(char *s, char c);
 
+/**
+ * _strspn - gets the length of a prefix substring
+ */
+
+unsigned int _strspn(char *s, char *accept);
+
+/**
+ * _strpbrk - searches a string for any of a set of bytes.
+ */
+
+char *_strpbrk(char *s, char *accept);
+
+/**
+ * _strstr - locates a substring
+ */
+
+char *_strstr(char *haystack, char *needle);
+
+/**
+ * prints_chessboard - prints chessboard
+ */
+
+void print_chessboard(char (*a)[8]);
+
+/**
+ * print_diagsum - prints the sum of the two diagonals of a square matrix of integers.
+ */
+
+void print_diagsums(int *a, int size);
+
+
+
 #endif
 
