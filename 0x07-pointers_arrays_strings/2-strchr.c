@@ -11,10 +11,10 @@
 
 char *_strchr(char *s, char c)
 {
-	int i, sLen;
-	char ptr;
+	int i, sLen = 0;
+	char *ptr = NULL;
 
-	while (*s != '\0')
+	while (s[sLen] != '\0')
 	{
 		sLen++;
 	}
@@ -23,11 +23,8 @@ char *_strchr(char *s, char c)
 	{
 		if (*s[i] == c)
 		{
-			ptr = s[i];
-		}
-		else
-		{
-			ptr = NULL;
+			ptr = &s[i];
+			break;
 		}
 	}
 
