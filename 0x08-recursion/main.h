@@ -244,6 +244,13 @@ int factorial(int n);
 
 int _pow_recursion(int,int);
 
+/**
+ * _sqrt_recursion - returns natural square root of number
+ */
+
+int _sqrt_recursion(int n);
+
+
 
 #endif
 
