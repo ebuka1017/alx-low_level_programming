@@ -238,7 +238,11 @@ int _strlen_recursion(char *s);
 
 int factorial(int n);
 
+/**
+ * _pow_recursion - returns the value of x raised to power y
+ */
 
+int _pow_recursion(int,int);
 
 
 #endif
