@@ -250,6 +250,11 @@ int _pow_recursion(int,int);
 
 int _sqrt_recursion(int n);
 
+/**
+ * is_prime_number - returns 1 if prime
+ */
+
+int is_prime_number(int n);
 
 
 #endif
