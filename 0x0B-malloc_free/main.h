@@ -281,5 +281,18 @@ char *_strdup(char *str);
 
 char *str_concat(char *s1, char *s2);
 
+/**
+ * alloc_grid - returns pointer to a 2d array of ints
+ */
+int **alloc_grid(int width, int height);
+
+/**
+ * free_grid - frees grid creatd by alloc_grid func
+ */
+
+void free_grid(int **grid, int height);
+
+/**
+ *
 #endif
 
