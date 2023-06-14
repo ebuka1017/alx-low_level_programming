@@ -1,6 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stddef.h>
+
+#ifndef SIZE_MAX
+#define SIZE_MAX ((size_t) - 1)
+#endif>
 
 /**
  * alloc_grid - returns pointer to a 2d grid
