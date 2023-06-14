@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stddef.h>
 
 /**
  * free_grid - frees 2D grid created by func alloc_grid
