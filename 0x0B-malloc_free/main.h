@@ -269,6 +269,11 @@ int is_prime_number(int n);
 
 char *create_array(unsigned int size, char c);
 
+/**
+ * _strdup - returns a pointer to a newly allocated space in memory
+ */
+
+char *_strdup(char *str);
 
 #endif
 
