@@ -1,0 +1,2 @@
+STRUCTURES AND TYPE DEFINITION
+***********************
