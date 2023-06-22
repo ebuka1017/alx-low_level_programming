@@ -8,9 +8,7 @@
 
 void print_opcodes(int num_bytes)
 {
-	unsigned char *ptr;
-
-	ptr = (unsigned char *)print_opcodes;
+	unsigned char *ptr = (unsigned char *)print_opcodes;
 
 	for (int i = 0; i < num_bytes; i++)
 	{
