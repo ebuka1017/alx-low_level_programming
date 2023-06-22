@@ -1,7 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void print_opcodes(int num_bytes);
+/**
+ * print_opcodes - prints opcodes of main function
+ * @num_bytes: number of bytes
+ */
+
+void print_opcodes(int num_bytes)
+{
+	unsigned char *ptr;
+
+	ptr = (unsigned char *)print_opcodes;
+
+	for (int i = 0; i < num_bytes; i++)
+	{
+		printf("%02x ", *(ptr + i));
+	}
+
+	printf("\n");
+}
+
 
 /**
  * main - start of program
@@ -35,22 +53,4 @@ int main(int argc, char *argv[])
 	return (0);
 }
 
-/**
- * print_opcodes - prints opcodes of main function
- * @num_bytes: number of bytes
- */
-
-void print_opcodes(int num_bytes)
-{
-	unsigned char *ptr;
-
-	ptr = (unsigned char *)print_opcodes;
-
-	for (int i = 0; i < num_bytes; i++)
-	{
-		printf("%02x ", *(ptr + i));
-	}
-
-	printf("\n");
-}
 
