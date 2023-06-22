@@ -33,6 +33,18 @@ void print_name(char *name, void (*f)(char *));
 
 void array_iterator(int *array, size_t size, void (*action)(int));
 
+/**
+ * int_index - searches for an integer
+ *
+ * @array: array to go through
+ * @size: size of array
+ * @cmp: pointer to func comparing values
+ *
+ * Return: int value
+ */
+
+int int_index(int *array, int size, int (*cmp)(int));
+
 #endif
 
 
