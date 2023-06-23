@@ -61,7 +61,6 @@ void print_all(const char * const format, ...)
 	char *sep = "";
 	char *sep2 = ", ";
 	va_list anyArgs;
-
 	printer ops[] = {
 		{"c", print_c},
 		{"i", print_i},
