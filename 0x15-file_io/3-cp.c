@@ -32,25 +32,19 @@ int main(int ac, char **av)
 	{
 		wrote = write(fdToo, buff, readed);
 		if (wrote == -1)
-		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
 			exit(99);
-		}
 	}
 	if (readed == -1)
-	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
 		exit(98);
-	}
+
 	if (close(fdFrum) == -1)
-	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d", fdFrum);
 		exit(100);
-	}
+
 	if (close(fdToo) == -1)
-	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d", fdToo);
 		exit(100);
-	}
 	return (0);
 }
